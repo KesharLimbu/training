@@ -111,8 +111,7 @@ nav content p{
 }
 
 
-@media screen and (max-width: 600px){
-  nav {
-    display:inline-block;
-  }
+@media screen and (max-width: 850px){
+  
 }
+

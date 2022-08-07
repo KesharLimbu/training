@@ -130,3 +130,11 @@ footer{
     padding: 15px 0;
     
 }
+
+@media screen and (max-width:850px){
+    aside{
+        flex: 0 0 50vw;
+        background-color:red;
+    }
+       
+}
