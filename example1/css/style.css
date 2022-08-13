@@ -81,6 +81,7 @@ article{
 
 .services-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -132,9 +133,18 @@ footer{
 }
 
 @media screen and (max-width:850px){
-    aside{
-        flex: 0 0 50vw;
-        background-color:red;
+    .service-box{
+        flex-basis: 48%;
+        max-width: 370px;
     }
-       
+    
+    aside{
+        flex: 0 0 30vw;
+    }      
+}
+
+@media screen and (max-width:600px){
+    header{
+        flex-direction: column;
+    }      
 }
