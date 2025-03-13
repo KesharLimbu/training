@@ -1,16 +1,14 @@
 const personalDetails = [
-{
-    fname: "Keshar", lname: "Limbu"}, 
-    {fname: "Gita", lname: "Ale"}
+    {fname: "Gita", lname: "Ale"},
+    {fname: "Keshar", lname: "Limbu"}, 
+    {fname: "Dil Kumari", lname: "Limbu"}
 ]
-
-    
-    
-
 console.log(personalDetails);
-
 const sortedProducts = personalDetails.sort((a, b)=>{
-    return a.lname > b.lname ? 1 : a.lname < b.lname ? -1 : 0;  
+    return a.fname > b.fname ? 1 : a.fname < b.fname ? -1 : 0;  
 });
 
-console.log(sortedProducts);
+console.log("Sorted Products:", sortedProducts);
+
+const filteredText = personalDetails.filter(text=> text.lname=="Ale");
+console.log("Filtered Text:", filteredText);
