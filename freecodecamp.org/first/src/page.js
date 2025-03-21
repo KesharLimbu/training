@@ -29,8 +29,6 @@ function Footer(){
 
 }
     
-
-
 function Page(){
     return(
        <>  
