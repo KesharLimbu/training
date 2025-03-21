@@ -1,0 +1,9 @@
+.header {
+    display:inline-flex; 
+    align-items: center;
+}
+.nav-list{
+    list-style: none;
+    display:inline-flex;
+}
+
